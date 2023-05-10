@@ -1,0 +1,14 @@
+                auto_usate
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  marca VARCHAR(50) NOT NULL,
+  modello VARCHAR(50) NOT NULL,
+  anno_fabbricazione INT NOT NULL,
+  chilometraggio INT NOT NULL,
+  prezzo DECIMAL(10,2) NOT NULL,
+  stato_auto VARCHAR(20) NOT NULL,
+  carburante VARCHAR(20) NOT NULL,
+  colore VARCHAR(20) NOT NULL,
+  tipo_carrozzeria VARCHAR(20) NOT NULL,
+  cambio VARCHAR(20) NOT NULL,
+  num_proprietari INT NOT NULL,
+ 
